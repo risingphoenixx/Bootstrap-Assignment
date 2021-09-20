@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment_Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <style>
+    .container {
+    background-color: rgb(255, 212, 236);
+    padding: 10px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.container-jumbo {
+    background-color: rgb(255, 212, 236);
+    margin: 0px;
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-jumbo-text {
+    background-color: rgb(255, 212, 236);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.text-colorful {
+    color: rgb(238, 127, 146);
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    text-align: center;
+}
+
+.class-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(34, 31, 31, 0.863);
+}
+
+.button-start {
+    background-color: fuchsia;
+    border: 0px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.text-shadow {
+    color: rgb(187, 186, 186);
+    margin-left: 0px;
+    margin-right: 10px;
+    font-style: italic;
+}
+
+.image-class {
+    margin-top: 50px;
+}
+
+.body-text-class {
+    margin-top: 50px;
+}
+
+.text-inner {
+    text-align: center;
+}
+
+.all-img-text {
+    display: grid;
+}
+
+.img-responsive {
+    margin-left: 150px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="content">
+        <header class="row justify-content-between container">
+            <div class="col-lg-4"><img src="boot1.png" width="30" height="30" class="align-top"> Schedool</div>
+            <div class="col-lg-4 text-center nav-link">
+                <a class="class-link" href="#"><b>Home</b></a>
+                <a class="class-link " href="# "><b>Features</b></a>
+                <a class="class-link " href="# "><b>Pricing</b></a>
+                <a class="class-link " href="# "><b>Contact</b></a>
+            </div>
+            <div class="col-lg-2 text-end ">
+                <button class="btn btn-primary button-start " type="submit ">Get Started</button>
+            </div>
+        </header>
+
+        <div class="jumbotron d-flex justify-content-around container-jumbo">
+            <div class="container-jumbo-text text-left">
+                <h1>
+                    <b>Schedule</b><br><b>your success</b><br><b>plan</b>
+                    <b class="text-colorful">now<i>!</i></b>
+
+                </h1>
+                <p>Enjoy the best experience when scheduling<br> your plan and get your awesome results.</p>
+                <div class="col-lg-2">
+                    <button class="btn btn-primary button-start " type="submit ">Get Started</button>
+                </div>
+                <p>
+                    <br>
+                    <b class="text-shadow">Google</b>
+                    <b class="text-shadow">  Microsoft</b>
+                    <b class="text-shadow">  Amazon</b>
+                </p>
+            </div>
+            <div class="col-lg-2">
+                <img src="boot2.png" width="350" height="350" class="align-top">
+            </div>
+        </div>
+
+        <div class="container-fluid bg-3 text-center">
+            <div class="column body-text-class">
+                <h3>Our Core Features</h3><br>
+                <p class="text-inner">Special features created just for you. With our features you acn easily manage<br>and plan your tasks in a better and the fastest way.</p>
+            </div>
+
+            <div class="row image-class">
+                <div class="col-sm-3 all-img-text">
+                    <img src="boot3.png" class="img-responsive" width="80" height="80" alt="Image">
+                    <b>All Format Plan</b>
+                    <p>You can add and create some
+                        <br>document and format it easily.</p>
+                </div>
+                <div class="col-sm-3 all-img-text">
+                    <img src="boot4.png" class="img-responsive" width="80" height="80" alt="Image">
+                    <b>Scheduling Plans</b>
+                    <p>You can add and create some
+                        <br>document and format it easily.
+                    </p>
+                </div>
+                <div class="col-sm-3 all-img-text">
+                    <img src="he.png" class="img-responsive" width="80" height="80" alt="Image">
+                    <b>Progress Plans</b>
+                    <p>You can add and create some
+                        <br>document and format it easily.
+                    </p>
+                </div>
+                <div class="col-sm-3 all-img-text">
+                    <img src="boot5.png" class="img-responsive" width="80" height="80" alt="Image">
+                    <b>Community Plans</b>
+                    <p>You can add and create some
+                        <br>document and format it easily.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
